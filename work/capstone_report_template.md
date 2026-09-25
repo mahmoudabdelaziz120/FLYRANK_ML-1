@@ -2,7 +2,7 @@
 
 - **Author:** Mahmoud Abdelaziz El-Shahat Ibrahim
 - **Lane:** Refresh / Content Opportunity Scoring (Lane 2)
-- **Repo:** work/
+- **Repo:** work/notebooks/capstone.ipynb
 - **Date:** September 2026
 
 ---
