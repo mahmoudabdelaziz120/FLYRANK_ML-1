@@ -97,7 +97,7 @@
 ## 7. Recommendation
 
 - **Scoring Engine Formulation:** Probabilities alone do not determine business impact. Editorial prioritization is computed via:
-  $$\text{Opportunity Score} = P(\text{down}) \times \log(1 + \text{impressions\_prev\_30d}) \times \left(1 + \frac{\text{days\_since\_last\_update}}{365}\right)$$
+ `Opportunity Score = P(down) * log(1 + impressions_prev_30d) * (1 + days_since_last_update / 365)`
 - **Editor Playbook:**
   1. **Top Priority (`HIGH_EXPOSURE_RISK`):** Pages with $\text{Opportunity Score} > 9.0$ and impressions $> 5,000$ (e.g., top-ranked keyword articles suffering click deficits). Action: Immediate meta-title overhaul and intent re-optimization.
   2. **Secondary Priority (`STALE_CONTENT` / `THIN_CONTENT`):** Decaying articles with low word counts and $> 180$ days since revision. Action: Editorial expansion, adding structured FAQ blocks, and updating out-of-date citations.
